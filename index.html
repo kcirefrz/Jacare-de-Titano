@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--====== CSS ======-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--====== Boxicons CSS ======-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Jacaré de Titânio</title>
+</head>
+<body>
+
+    <nav class="sidebar close"> <!--sidebar-->
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="img/JDT.png" alt="logo"> <!--logo sidebar-->
+                </span>
+
+                <div class="text text-header"> <!--sidebar header text-->
+                    <span class="name">Jacaré de Titânio</span>
+                    <span class="profession">Web Developer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle' ></i> <!--sidebar arrow icon toggle-->
+        </header>
+
+        <div class="menu-bar"> <!--sidebar top menu content-->
+            <div class="menu">
+                <li class="search-box"> <!--sidebar search-->
+                    <i class="bx bx-search icon"></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links"> <!--sidebar menu links-->
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-home-alt icon"></i> <!--sidebar dashboard link-->
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-bar-chart-alt-2 icon"></i> <!--sidebar revenue link-->
+                            <span class="text nav-text">Revenue</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-bell icon"></i> <!--sidebar notifications link-->
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-pie-chart-alt icon"></i> <!--sidebar analytics link-->
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-heart icon"></i> <!--sidebar likes link-->
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="bx bx-wallet icon"></i> <!--sidebar wallets link-->
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content"> <!--sidebar bottom menu content-->
+                <li class="">
+                    <a href="#">
+                        <i class="bx bx-log-out icon"></i> <!--sidebar logout-->
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode"> <!--sidebar dark/light mode-->
+                    <div class="moon-sun">
+                        <i class="bx bx-moon icon moon"></i>
+                        <i class="bx bx-sun icon sun"></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span> <!--sidebar dark/light mode text-->
+
+                    <div class="toggle-switch"> <!--sidebar toggle dark/light mode switch-->
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home"> <!--content home-->
+        <div class="section-1-header"> <!--section 1 header-->
+            <span class="image-header">
+                <img class="imglogo1" src="img/titajacare.png" alt="jdtlogo"> <!--logo 1-->
+            </span>
+            <p class="jdt-header-message jdtm1">Come join the biggest Metallurgical Organization, </p> <!--default image-header text-->
+            <p class="jdt-header-message jdtm2">and also Metal Band in Brazil!</p> <!--default image-header text-->
+            <p class="jdt-header-message jdtm3">The biggest Metallugircal Org and Metal Band in Brazil!</p> <!--media query image-header text-->
+
+            <div class="jdt-message"> <!--jdt message presentation-->
+                <h2>Welcome to "Jacaré de Titânio".</h2> <!--jdt message presentation title-->
+                <p class="jdt-message-text">We from "Jacaré de Titânio", are a metalurgical <!--default jdt message presentation text paragraph 1-->
+                    brazilian organization focused on alchemy, turning every piece of any metal
+                    in gold.
+                </p>
+                <p class="jdt-message-text jdtmtxt1">Besides that, we have a band of professional Metal/Rock <!--default jdt message presentation text paragraph 2-->
+                    Stars, that are integrated by one of the best names nowadays in the Rock and Roll
+                    world, being it's respectives members and positions:
+                </p>
+                <p class="jdt-message-text jdtmtxt2">Besides that, we have a band of professional Metal/Rock <!--media query jdt message presentation text paragraph 2-->
+                    Stars, with it's respectives members and positions:
+                </p>
+                <p class="jdt-message-text jdtband">On the lead vocals: Komodo Dragon;</p> <!--jdt message presentation band members-->
+                <p class="jdt-message-text jdtband">On the keyboards: Storm Aligator;</p>
+                <p class="jdt-message-text jdtband">On the lead guitar: Speed Crocodile;</p>
+                <p class="jdt-message-text jdtband">On the rythm guitar: Gavial Melódico;</p>
+                <p class="jdt-message-text jdtband">On the bass: Thunder Jacarétinga.</p>
+                
+                <div class="jdt-message-flex"> <!--jdt message flex for including logo 2-->
+                    <p class="jdt-message-text">On the drums: Lizard Tornado.</p>
+                    <img class="imglogo2" src="img/jacaretita.png" alt="jdtlogo2"> <!--jdt logo 2-->
+                </div>
+
+                <i class='bx bx-chevron-down toggle'></i> <!--downwards arrow-->
+                
+            </div>
+
+            <span class="jdt-message-mq">
+                <img src="img/jacaretita.png" alt="">
+            </span>
+
+            <div class="section-2-header"> <!--section-2 header-->
+                <p class="jdt-header-2-message default-sec-2">Some of our inspirations!</p> <!--inspirations header text-->
+                <p class="jdt-header-2-message mq-sec-2">Inspiration for us!</p> <!-- media query inspirations header text-->
+            </div>
+
+            <div class="section-3-mosaico"> <!--section-3 mosaico-->
+                <div class="container-mosaico"> <!--container mosaico-->
+                    <div class="flex-mosaico"> <!--flex mosaico-->
+
+                        <div style="background-image:url('img/Vesuvio.jpg');" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+                            <div class="item-2-mosaico"> <!--mosaico vesuvio-->
+                                <h2>Vesúvio</h2>
+                                <p class="jdt-message-text text-mosaico">Vesúvio is a Heavy Metal Brazilian band formed in 2015 by Arthur Leonardo (Vocals/Guitar),
+                                    Matheus Oliveira (Guitar), Eduardo Santana (Bass) and Guilherme Miranda (Drums).</p>
+                                <p class="jdt-message-text text-mosaico txtm">The band presents to the listeners heavy riffs, powerful lyrics and their influences
+                                    coming from bands like: Metallica, Alice in Chains and Black Sabbath.</p>
+                            </div><!--item2-mosaico-->
+
+                            </div><!--flex-mosaico-->
+
+                            <div class="flex-mosaico">
+                            <div style="background-image:url('img/Metallica.jpg');order:2;" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+                            <div class="item-2-mosaico" style="order:1;"> <!--mosaico metallica-->
+                                <h2>Metallica</h2>
+                                <p class="jdt-message-text text-mosaico">Metallica formed in 1981 by drummer Lars Ulrich and guitarist and vocalist James Hetfield
+                                    and has become one of the most influential and commercially successful rock bands in history.</p>
+                                <p class="jdt-message-text text-mosaico txtm">Having sold 110 million albums worldwide while playing
+                                    to millions of fans on literally all seven continents.</p>
+                            </div><!--item2-mosaico-->
+
+                            </div><!--flex-mosaico-->
+
+                                    <div class="flex-mosaico">
+                            <div style="background-image:url('img/pearljam.jpg');" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+                            <div class="item-2-mosaico"> <!--mosaico pearl jam-->
+                                <h2>Pearl Jam</h2>
+                                <p class="jdt-message-text text-mosaico">Pearl Jam rose above the legions of grungy alt-rockers littering the early '90s to become the most
+                                    popular and enduring American rock & roll band of their time.</p>
+                                <p class="jdt-message-text text-mosaico txtm">Unlike many of their Seattle brethren, Pearl Jam, as a collective, were never signed or
+                                    affiliated with an indie label -- founding members Stone Gossard and Jeff Ament both were veterans of Green River,
+                                    one of the first major bands on Sub Pop.</p>
+                            </div><!--item2-mosaico-->
+
+                            </div><!--flex-mosaico-->
+
+                            <div class="flex-mosaico">
+                            <div style="background-image:url('img/alicenascorrentes.jpg');order:2;" class="item-1-mosaico"></div><!--item1-mosaico-->
+                    
+                            <div class="item-2-mosaico" style="order:1;"> <!--mosaico alice in chains-->
+                                <h2>Alice in Chains</h2>
+                                <p class="jdt-message-text text-mosaico">Alice in Chains both epitomized the solemn, heavy Seattle sound of the 1990s and stood apart from the grunge hordes.</p>
+                                <p class="jdt-message-text text-mosaico txtm">What separated Alice in Chains from their alt-rock brethren was how their roots lay in heavy metal, not punk.</p>
+                            </div><!--item2-mosaico-->
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="section-4-footer"> <!--section-4 footer-->
+                <div class="contact"> <!--contact-->
+                    <h2>About us</h2> <!--contact about us title-->
+
+                    <ul> <!--section-4 contact list opening tag-->
+
+                        <li> <!--section-4 contact list-->
+                          <span>
+                            <strong>* Adress: </strong> <!--adress contact list -->
+                             Street Tanana de Tanana, nº69 - Tananana de Tanana
+                            <br />
+                            Tanana/XD - CEP: 44444-444
+                          </span>
+                        </li>
+              
+                        <li>
+                          <span>
+                            <strong>* Fixed Phone Number: </strong> <!--fixed phone number contact list-->
+                            (12) 3369-6669 - Secretary
+                          </span>
+                        </li>
+              
+                        <li>
+                          <span>
+                            <strong>* E-mail: </strong> <!--email contact list-->
+                            <a class="jdt-email" >jacaredetitanio@gmail.com</a>
+                          </span>
+                        </li>
+              
+                      </ul>
+                      <p>&copy; Erick Fares, Jacaré de Titânio - All rights reserved.</p> <!--copyright contact list footer-->
+                </div>
+            </footer>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!--script-->
+    
+</body>
+</html>
